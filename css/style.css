@@ -296,8 +296,11 @@ section {
 }
 
 .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--background-color-team);
-  padding: 25px 100px;
+  height: 120px;
   margin-bottom: 30px;
 }
 
